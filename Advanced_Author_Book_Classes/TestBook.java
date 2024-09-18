@@ -8,8 +8,9 @@ public class TestBook {
         authors[1] = new Author("Satyajit Ray", "ray@yahoo.com", 'm');
 
         Book book=new Book("Wings of Fire",authors,2500,90);
-
+        System.out.println();
         System.out.println(book);
+        System.out.println();
     }
     
 }
